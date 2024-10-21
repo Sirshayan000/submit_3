@@ -1,3 +1,4 @@
+
 export default function Header(){
     return(
         <header>
@@ -31,16 +32,18 @@ export default function Header(){
                     display: 'flex',
                     alignItems: 'center'
                 }}> 
+                
                 <div className="logo" style={{
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',                   
                     height:'70px ',
                     width: '100px',
-                    backgroundImage: 'url("/components/Header/logo.png")',
+                    backgroundImage: 'url(/components/Header/logo.png)',
                     backgroundSize: 'cover'
                 }}>
-                </div>                       
+                </div>
+                                   
                  <div className="opt" style={{
                     width: '600px',
                     fontSize: '1.2rem',
