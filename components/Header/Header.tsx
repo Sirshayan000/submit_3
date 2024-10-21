@@ -37,7 +37,7 @@ export default function Header(){
                     alignItems: 'center',                   
                     height:'70px ',
                     width: '100px',
-                    backgroundImage: 'url("/logo.png")',
+                    backgroundImage: 'url("/components/Header/logo.png")',
                     backgroundSize: 'cover'
                 }}>
                 </div>                       
