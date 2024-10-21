@@ -66,7 +66,7 @@ export default function Header(){
                      alignItems: 'center'  ,                  
                      fontSize: '1.2rem',
                      fontWeight: '800%'
-                }}>
+                }}>          
                 <i className="fa-solid fa-magnifying-glass" style={{ paddingLeft: '10px'}}></i>
                 <p style={{ paddingLeft: '20px'}}>SEARCH</p>
 
