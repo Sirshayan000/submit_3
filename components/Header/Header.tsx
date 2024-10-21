@@ -3,14 +3,21 @@ export default function Header(){
         <header>
            <div style={{
                 backgroundColor: 'rgb(255, 255, 255)',
-                fontSize: '1.25rem',
+                fontSize: '0.9rem',
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
-                height: '2.5rem'
+                height: '2.5rem',
+                color: 'rgb(0, 0, 0)'
             }}>
-                <p>FREE AND EASAY RETURNS</p>
-                <a >SEE DETAILS</a>
+                <p style={{
+                    fontWeight: 'bolder',
+
+                }}
+                >FREE AND EASAY RETURNS</p>
+
+                <a 
+                >SEE DETAILS</a>
             </div>  
              
         </header>
