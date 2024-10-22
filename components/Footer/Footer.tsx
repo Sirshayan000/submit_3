@@ -6,11 +6,13 @@ export default function Footer(){
                     backgroundColor: 'rgb(0,0,0)',
                     color: 'white',
                     display: 'flex',
-                    alignItems: 'center'
+                    alignItems: 'center',
+                    fontSize: '1.2rem',
+                    justifyContent: 'space-evenly'
                   
             }}>
                 <ul className="list_1">
-                    <li><h3>Support</h3></li>
+                    <h3>Support</h3>
                     <li>Contact Us</li>                    
                     <li>Shipping and Delivery</li>
                     <li>Return Policy</li>
@@ -29,7 +31,7 @@ export default function Footer(){
                 </ul>
 
                 <ul className="list_3">
-                    <li><h3>About</h3></li>
+                    <h3>About</h3>
                     <li>Company</li>
                     <li>Corporate News</li>
                     <li>Press Center</li>
@@ -39,7 +41,7 @@ export default function Footer(){
                 </ul>
 
                 <ul className="list_4">
-                    <li><h3>STAY UP TO DATE</h3></li>
+                    <h3>STAY UP TO DATE</h3>
                     <li>Sign Up For Email</li>
                    
                 </ul>
