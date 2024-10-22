@@ -1,7 +1,14 @@
 export default function Footer(){
     return(
         <footer>
-            <div className="footer">
+            <div className="footer" style={{    
+                    height: '400px',
+                    backgroundColor: 'rgb(0,0,0)',
+                    color: 'white',
+                    display: 'flex',
+                    alignItems: 'center'
+                  
+            }}>
                 <ul className="list_1">
                     <li><h3>Support</h3></li>
                     <li>Contact Us</li>                    
